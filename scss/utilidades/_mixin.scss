@@ -1,0 +1,12 @@
+@mixin flex{
+    display: contents;
+}
+
+main.img{
+    margin: 10px 40px;
+    display: flex;
+}
+footer{
+    margin: 100px;
+    @include flex;
+}

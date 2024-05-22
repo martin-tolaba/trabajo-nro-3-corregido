@@ -1,0 +1,15 @@
+$colores:
+#e6a92d,
+grey;
+$formato-t:
+bold,
+light,
+bolder;
+
+h1{
+    background-color: nth($colores, 1 );
+    font-weight: nth($formato-t, 3 );
+}
+h4{
+    background-color: nth($colores, 2 );
+}

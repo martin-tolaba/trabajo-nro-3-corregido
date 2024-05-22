@@ -1,0 +1,110 @@
+
+body{
+    background-color: #8C7B5A;
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
+
+
+h1{
+    color: rgb(15, 14, 14);
+    text-align: center;
+    background-color: grey;
+}
+h4{
+    color: black;
+    text-align: center;
+    background-color: grey;
+    
+}
+h3{
+    background-color: #8C7B5A;
+    text-align: center;
+
+
+}
+header{
+    background-color:#8C7B5A;
+    text-align: center;
+    .img{
+        width: 200px;
+        align-items: center;
+        display: flex;  
+        flex-direction: row;
+        justify-content:center;
+        box-shadow: 10px 20px 40px;
+
+    }
+    .nav{
+        list-style: none; 
+        color: gray;
+    .ul{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+    }
+     .li{
+        font-weight: 50px;
+    }
+    }
+}
+main{
+    text-align:justify;
+    .h1{
+        font-size: 30px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    .p{
+        font-size: 0;
+        background-color: #8C7B5A;
+    }
+
+    }
+
+
+}
+main{
+    margin: 10px 40px;
+    
+    .img{
+    display: flex;
+    }
+}
+
+footer{
+    text-align: justify;
+    font-size: 20px;
+
+}
+@media screen and (min-width: 600px){
+    main{
+        background-color: #8C7B5A;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-row: repeat (1, 50%);
+    .renault.png{
+        grid-column: span 80;
+    }
+
+    }
+    
+ }
+footer{
+    margin: 100px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    main{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 40% 40% 15%;
+
+        .renault.png{
+        display: flex;
+    }
+    }
+ 
+    }
+    section{
+        align-content: center;
+        text-align: center;
+    }
